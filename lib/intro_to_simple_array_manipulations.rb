@@ -1,5 +1,5 @@
 def using_push(array, string)
-  array.push(string)
+  array.push(string)  #method returns updated array
 end
 
 def using_unshift(array, string)
@@ -7,7 +7,7 @@ def using_unshift(array, string)
 end
 
 def using_pop(array)
-  array.pop 
+  array.pop #removes and return last element of an array
 end 
 
 def pop_with_args(array)
@@ -27,16 +27,15 @@ def using_concat(array1, array2)
 end 
 
   
-def using_insert(new_element, array)
+def using_insert(new_element, array) #passed the new_element as an argument 
    array = [1,2,3,4,6,7,8]
    new_element = "Malbolge"  
-  array.insert(4, new_element)
+  array.insert(4, new_element) #adds new element to the 4th index
 end
 
-#using_insert(new_element, array)
   
 def using_uniq(array)
-  array.uniq 
+  array.uniq #returns new array by returning duplic values
 end 
 
 def using_flatten(array)
